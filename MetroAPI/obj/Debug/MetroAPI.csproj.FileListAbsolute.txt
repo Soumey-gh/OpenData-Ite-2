@@ -1,0 +1,10 @@
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\obj\Debug\MetroAPI.csproj.AssemblyReference.cache
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\obj\Debug\MetroAPI.csproj.CoreCompileInputs.cache
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\bin\Debug\MetroAPI.exe.config
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\bin\Debug\MetroAPI.exe
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\bin\Debug\MetroAPI.pdb
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\obj\Debug\MetroAPI.csproj.CopyComplete
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\obj\Debug\MetroAPI.exe
+C:\Users\soumeya.ghalem\source\repos\MetroAPI\MetroAPI\obj\Debug\MetroAPI.pdb
