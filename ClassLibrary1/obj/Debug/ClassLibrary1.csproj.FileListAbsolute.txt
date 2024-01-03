@@ -1,0 +1,9 @@
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\bin\Debug\MetroLibrary.dll
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\bin\Debug\MetroLibrary.pdb
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\obj\Debug\MetroLibrary.dll
+C:\Users\soumeya.ghalem\C#-Itération 2\MetroAPI\ClassLibrary1\obj\Debug\MetroLibrary.pdb
