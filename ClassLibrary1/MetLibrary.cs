@@ -14,7 +14,7 @@ namespace ClassLibrary1
 {
     public class MetLibrary
     {
-        public List<LineTransport> GetLine()
+        public List<LineTransport> GetLine(double Longitude, double Latitude, int Radius)
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 
