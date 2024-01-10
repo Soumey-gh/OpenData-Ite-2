@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace MetroLibrary
 {
-    internal interface IRequest
+    public interface IRequest
     {
+        string DoRequest(string url);
+
     }
 }
