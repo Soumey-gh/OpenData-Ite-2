@@ -33,7 +33,7 @@ namespace ClassLibrary1
         public List<LineTransport> GetLine(double x, double y , int r )
         {
 
-            string web = _request.DoRequest($"http://data.mobilites-m.fr/api/linesNear/json?x={x.ToString(System.Globalization.CultureInfo.InvariantCulture)}y={y.ToString(System.Globalization.CultureInfo.InvariantCulture)}&dist={r.ToString()}&details=true");
+            string web = _request.DoRequest($"http://data.mobilites-m.fr/api/linesNear/json?x={x.ToString(System.Globalization.CultureInfo.InvariantCulture)}&y={y.ToString(System.Globalization.CultureInfo.InvariantCulture)}&dist={r.ToString()}&details=true");
             
             Console.WriteLine(web);
             

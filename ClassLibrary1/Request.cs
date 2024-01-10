@@ -18,7 +18,7 @@ namespace MetroLibrary
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 
             WebRequest request = WebRequest.Create(url);
-
+            Console.WriteLine(url); 
 
             // Get the response.
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
