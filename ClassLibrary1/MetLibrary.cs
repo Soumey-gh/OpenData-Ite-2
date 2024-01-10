@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using MetroLibrary;
 using Newtonsoft.Json;
 
 
@@ -14,35 +15,31 @@ namespace ClassLibrary1
 {
     public class MetLibrary
     {
-        public List<LineTransport> GetLine(double Longitude, double Latitude, int Radius)
+        private IRequest _request; 
+      
+
+        public MetLibrary ()
         {
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
+            _request = new Request ();
+        }
 
-            // Create a request for the URL. 
-            WebRequest request = WebRequest.Create("http://data.mobilites-m.fr/api/linesNear/json?x=5.7311970517846&y=45.184446886268645&dist=500&details=true");
+        public MetLibrary(IRequest metLibrary)
+        {
+            _request = metLibrary;
+        }
 
-            // Get the response.
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
-            //Display the status.
-            Console.WriteLine(response.StatusDescription);
 
-            // Get the stream containing content returned by the server.
-            Stream dataStream = response.GetResponseStream();
+        public List<LineTransport> GetLine(double x, double y , int r )
+        {
 
-            // Open the stream using a StreamReader for easy access.
-            StreamReader reader = new StreamReader(dataStream);
+            string web = _request.DoRequest($"http://data.mobilites-m.fr/api/linesNear/json?x={x.ToString(System.Globalization.CultureInfo.InvariantCulture)}y={y.ToString(System.Globalization.CultureInfo.InvariantCulture)}&dist={r.ToString()}&details=true");
+            
+            Console.WriteLine(web);
+            
+            List<LineTransport> afficheLines = JsonConvert.DeserializeObject<List<LineTransport>>(web);
 
-            // Read the content.
-            string responseFromServer = reader.ReadToEnd();
-            List<LineTransport> afficheLines = JsonConvert.DeserializeObject<List<LineTransport>>(responseFromServer);
-
-            // Cleanup the streams and the response.
-            reader.Close();
-            dataStream.Close();
-            response.Close();
             return afficheLines;
-
         }
     }
 }

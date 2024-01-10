@@ -10,22 +10,22 @@ namespace ClassLibrary1
 {
     public class LineTransport
     {
-        [JsonProperty("id")]
+        [JsonProperty("Id")]
         public string Id { get; set; }
 
-        [JsonProperty("name")]
+        [JsonProperty("Name")]
         public string Name { get; set; }
 
-        [JsonProperty("lon")]
+        [JsonProperty("Lon")]
         public double Lon { get; set; }
 
-        [JsonProperty("lat")]
+        [JsonProperty("Lat")]
         public double Lat { get; set; }
 
-        [JsonProperty("zone")]
+        [JsonProperty("Zone")]
         public string Zone { get; set; }
 
-       [JsonProperty("lines")]
+       [JsonProperty("Lines")]
         public List<string> Lines { get; set; }
     }
 }
